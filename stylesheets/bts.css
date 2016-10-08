@@ -1,0 +1,55 @@
+body {
+      background-color: white;
+}
+
+h1 {
+  font-size: 350%;
+  color: #e0e0e0;
+  font-family: Helvetica;
+  font-weight:lighter;
+}
+
+p {
+  font-size: 100%;
+  color: lightsteelblue;
+  font-family: tahoma;
+  font-weight:lighter;
+
+  position: absolute;
+  right: 65px;
+  bottom: 10%;
+  width: 100%;
+  text-align: right;
+}
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  position:absolute;
+  top:30%;
+  margin:-70px 0 0 -640px;
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: lightsteelblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: e0e0e0;
+}
+
+/* selected link */
+a:active {
+  color: azure;
+}
